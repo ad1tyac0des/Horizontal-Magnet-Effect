@@ -1,8 +1,15 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url('Assets/Fonts/Gilroy-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: gilroy;
+    font-family: Gilroy;
 }
 
 html,
