@@ -21,10 +21,10 @@ frame.addEventListener("mousemove", function(dets){
     })
 
     const alpha = gsap.utils.mapRange(x1, x2, 0, 1, dets.clientX) // alpha is Interpolation Factor for lerp fn
-    const moveX = lerp(-50, 50, alpha) // ouputs -50 on extreme left side and 50 on extreme right of frame
+    const moveX = lerp(-3.6, 3.6, alpha) // ouputs -3.6 on extreme left side and 3.6 on extreme right of frame
 
     gsap.to(".frame span", {
-        x: moveX,
+        x: moveX + "vw",
         y: "-7vw",
         color: "#fff",
         duration: .3
